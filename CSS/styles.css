@@ -1,0 +1,187 @@
+body {
+  font-family: "Montserrat";
+}
+
+
+h2 {
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+
+
+
+
+
+/* Headings */
+
+#title {
+  background-color: #e36387;
+  text-align: right;
+}
+
+.big-heading {
+  font-size: 3rem;
+  width: 725px;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 5% 10%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 30%;
+  position: absolute;
+  left: 130%;
+
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* Objective */
+
+.intro {
+  padding: 7% 5% 7%;
+}
+.intro-p {
+  font-size: 1.2rem;
+  padding-top: 5px;
+  color: #3f4441;
+}
+
+/* Certifications and Clearance */
+
+.cert-clear {
+  background-color: #f2aaaa;
+  padding: 7% 5% 7%;
+}
+
+/*Skills*/
+
+.skill-set {
+  padding: 7% 5% 7%;
+}
+
+.list-table {
+  width: 60%;
+}
+
+
+
+/*Experience*/
+
+.exp {
+  background-color: #a6dcef;
+  padding: 3% 5% 10%;
+}
+
+
+/*Employment and Education*/
+
+.employment, .education {
+  padding: 5% 5% 5%;
+}
+
+.education {
+  background-color: #ddf3f5;
+}
+
+ .edu-a {
+  width: 45%;
+}
+
+.edu-b {
+  width: 40%;
+}
+
+
+
+
+
+/*Contact*/
+
+.contact-me {
+  text-align: center;
+  padding: 0;
+}
+
+/* Footer */
+
+#footer {
+  padding: 0 47%;
+}
+.copyright {
+  font-size: .5rem;
+  color: grey;
+}
+
+
+@media (max-width: 995px) {
+  #title {
+    text-align: center;
+  }
+
+  h1.big-heading {
+    font-size: 10vw;
+  }
+
+  .intro-p {
+    font-size: 5vw;
+  }
+
+  .title-image {
+    position: static;
+  }
+
+  .image {
+    padding-top: 130px;
+  }
+
+  .list-table {
+    width: 97%;
+  }
+
+  .contact-me {
+    text-align: left;
+    padding: 0;
+  }
+
+  #footer {
+    padding: 0;
+  }
+
+  .edu-a .edu-b {
+    font-size: 2vw;
+  }
+}
