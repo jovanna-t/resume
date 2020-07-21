@@ -29,8 +29,11 @@ h3 {
 
 .big-heading {
   font-size: 3rem;
-  width: 725px;
   color: white;
+}
+
+.small-heading {
+  font-size: 1rem;
 }
 
 .container-fluid {
