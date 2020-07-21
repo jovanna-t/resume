@@ -152,9 +152,10 @@ h3 {
     text-align: center;
   }
 
-  h1.big-heading {
-    font-size: 10vw;
+  .big-heading {
+    width: 400px;
   }
+
 
   .intro-p {
     font-size: 5vw;
